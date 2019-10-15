@@ -45,7 +45,7 @@ body{
 /*BEGIN NAVIGATIE*/
 nav{
 	height:90px;
-	position: absolute;
+	position: fixed;
     z-index: 5;
     width: 100%;
     background: #fff;
@@ -122,7 +122,7 @@ main{
 /**
 SECTION LATEST PRODUCTS: BEGIN
 **/
-#latestproducts{
+#latestproducts, #cart{
 	width:1045px;
 	margin:0 auto;
 }
@@ -166,4 +166,35 @@ article p{
 /**
 SECTION LATEST PRODUCTS: EINDE
 **/
+#cart{
+	margin-bottom:40px;
+}
+#cart h2{
+	color:#6c6c6c;
+	font-size: 42px;
+}
+#cart img{
+	width:371px;
+	margin:0 auto;
+}
+
+#cart article header h3{
+	font-size:22px;
+	font-weight:400;
+	margin-top:185px;
+}
+#cart article p{
+	width: 75%;
+    font-size: 15px;
+    line-height: 1cm;
+    text-align: left;
+}
+
 /*EINDE MAIN CONTENT*/
+footer{
+	  position: fixed;
+    bottom: 0;
+    background: #fff;
+    width:1250px;
+    border-top:1px solid #e5e5e5;
+}
